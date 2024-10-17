@@ -1,0 +1,16 @@
+
+
+spring:
+    application:
+        name: sadacau-config
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/R-JAC0BS/Micro-s.git
+                    search-paths:
+                        - 'configs/{application}'
+
+
+server:
+    port: 8888

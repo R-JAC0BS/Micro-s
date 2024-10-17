@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.edu.atitus.micro-services-config-service</groupId>
-    <artifactId>saudacao-service</artifactId>
+    <artifactId>Saudacao-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>saudacao-service</name>
-    <description>saudacao-service</description>
+    <name>Saudacao-service</name>
+    <description>Saudacao-service</description>
     <url/>
     <licenses>
         <license/>
