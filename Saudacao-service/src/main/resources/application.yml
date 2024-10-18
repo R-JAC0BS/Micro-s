@@ -1,1 +1,27 @@
-spring.application.name=Saudacao-service
+spring:
+  application:
+    name: saudacao-service
+  profiles:
+    active:
+      - pt
+  config:
+    import:
+      - optional:configserver:http://localhost:8888
+
+server:
+  port: 8085
+
+
+saudacao-service:
+  saudacao: Hello
+  saudacao-padrao: World
+management:
+  endpoints:
+   web:
+     exposure:
+       include:
+         - '*'
+  endpoint:
+    health:
+      show-details: always
+

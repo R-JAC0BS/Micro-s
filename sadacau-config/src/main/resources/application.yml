@@ -9,7 +9,8 @@ spring:
                 git:
                     uri: https://github.com/R-JAC0BS/Micro-s.git
                     search-paths:
-                        - 'configs/{application}'
+                    - 'Configs/{application}'
+                    default-label: main
 
 
 server:
